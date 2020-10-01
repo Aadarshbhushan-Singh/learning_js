@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning DOM</title>
+    <link rel="stylesheet" href="style_index.css">
+</head>
+<body id="background">
+    <h1 id="heroText">This is the hero text.</h1>
+    <!-- For changing font-size -->
+    <div class="btn">
+        <button id="ten">10px</button>
+        <button id="twenty">20px</button>
+        <button id="thirty">30px</button>
+        <button id="fourty">40px</button>
+        <button id="fifty">50px</button>
+    </div>
+    <!-- For changing text-color -->
+    <div class="color">
+        <label>For changing text color: </label> <input id="textColor" type="color">
+    </div>
+
+    <div class="backgroundColorChanger">
+        <label>For changing the background color: </label>
+        <input class="color01" type="color" value="#eb4034">
+        <input class="color02" type="color" value="#10ad5c">
+    </div>
+
+
+    <h3 id="shopingHeading">Shoping List</h3>
+    <div id="addTextDiv">
+        <label>Enter the text here to add to the list: </label> <input id="addToList" type="text">
+        <br><button id="btnAdd">Click me to add!</button>
+    </div>
+    <ul id="shopingList">
+        <li>Note Book</li>
+        <li>Pen</li>
+        <li>Pencil</li>
+        <li>Eraser</li>
+        <li>Calculator</li>
+        <li>Color Box</li>
+        <li>Pen Box</li>
+    </ul>
+
+    <section class="gallery">
+        <div class="carouselContainer">
+            <div class="carouselSlider">
+                <img src="images/image04.jpg" id="lastClone" alt="image04">
+                <img src="images/image01.jpg" alt="image01">
+                <img src="images/image02.jpg" alt="image02">
+                <img src="images/image03.jpg" alt="image03">
+                <img src="images/image04.jpg" alt="image04">
+                <img src="images/image01.jpg" id="firstClone" alt="image01">
+            </div>
+        </div>
+        <div class="carouselButton">
+            <button id="previous">Previous</button>
+            <button id="next">Next</button>
+        </div>
+    </section>
+
+    <script src="script_index.js"></script>
+</body>
+</html>

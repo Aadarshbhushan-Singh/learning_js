@@ -1,0 +1,19 @@
+{
+  "name": "learning_express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "01_learning_express.js",
+  "scripts": {
+    "start": "nodemon 04_RESTful_api.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  }
+}
