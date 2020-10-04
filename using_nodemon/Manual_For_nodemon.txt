@@ -1,0 +1,19 @@
+1) Install node js from the official site.
+2) While installing don't forget to click on add to path and select install on this device.
+3) Check through cmd that whether node and npm is installed properly or not.
+	Command For node: node --version
+	Command For npm: npm --version
+4) Go to the folder and run the below command to get package.json file through windows powershell.
+	npm init -y
+5) Run the command through windows powershell
+	npm install nodemon --save-dev
+6) If you open package.json you will see nodemon with its version
+	"nodemon": "^2.0.4"
+7) Go to package.json and change the following code to following:
+	"test": "echo \"Error: no test specified\" && exit 1"
+	"start": "nodemon"
+8) Now in command line type npm start
+9) Nodemon will start working
+10) For running particular .js file in a folder when there are many .js file use
+	"start": "nodemon nameOfFile.js"
+

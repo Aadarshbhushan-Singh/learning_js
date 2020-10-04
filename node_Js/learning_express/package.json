@@ -4,7 +4,7 @@
   "description": "",
   "main": "01_learning_express.js",
   "scripts": {
-    "start": "nodemon 04_RESTful_api.js"
+    "start": "nodemon 01_learning_express.js"
   },
   "keywords": [],
   "author": "",
