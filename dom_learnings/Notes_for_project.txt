@@ -1,0 +1,5 @@
+1) Click and change font-size
+2) background-color-generator and changing the color of text using the same concept
+3) Take input from user and add to the list (adds text to the list when we press the button or press the enter key. And it clears the
+	input area.
+4) Making the carousel gallery.

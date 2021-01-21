@@ -1,0 +1,12 @@
+body{
+    background-color: cyan;
+}
+.headings{
+    margin-top: 18%;
+    text-align: center; 
+}
+h1, h2{
+    text-transform: uppercase;
+    color: red;
+    font-size: 220%;
+}

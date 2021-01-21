@@ -1,0 +1,21 @@
+body{
+    background-color: cyan;
+}
+.headings{
+    text-align: center;
+    margin-top: 15%;
+    color: red; 
+}
+.page_hyperlinks{
+    display: block;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    font-size: 150%;
+}
+ul{
+    text-decoration: none;
+    list-style-type: none;
+
+}
